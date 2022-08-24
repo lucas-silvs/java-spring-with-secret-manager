@@ -1,0 +1,1 @@
+awslocal secretsmanager create-secret --name mysql/secret-teste --description "senha teste para verificar se a secret é criada no localstack" --secret-string '{"username":"wb-quarkus-usuarios", "password":"quarkusdb", "driverClassName":"com.mysql.cj.jdbc.Driver", "url": "jdbc:mysql://127.0.0.1:3303/db_quarkus"}' --region us-east-1

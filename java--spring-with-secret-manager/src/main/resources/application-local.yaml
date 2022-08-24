@@ -5,9 +5,10 @@ spring:
     password: quarkusdb
     testWhileIdle: true
     validationQuery: SELECT 1
-    driverClassName: com.mysql.jdbc.Driver
+    driverClassName: com.mysql.cj.jdbc.Driver
 
-#Setando padrão de nome da table para seguir o padrão CamelCase, senção informar ele utilizará a convesão de palavras separadas com underscores
+
+  #Setando padrão de nome da table para seguir o padrão CamelCase, senção informar ele utilizará a convesão de palavras separadas com underscores
   jpa:
     hibernate:
       naming:
