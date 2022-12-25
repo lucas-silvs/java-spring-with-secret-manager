@@ -1,2 +1,12 @@
 server:
   port: 5000
+
+logging:
+  level:
+    org:
+      apache:
+        tomcat: INFO
+    org.zalando.logbook: TRACE
+#  pattern:
+#    console: '%d{HH:mm:ss.SSS} %msg%n'
+
